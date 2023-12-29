@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "park-of-justice"
+version = "0.1.0"
+description = ""
+authors = ["victorhan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask = "^3.0.0"
+Flask-Cors = "^4.0.0"
+Flask-Limiter = "^3.5.0"
+sqids = "^0.3.0"
+pytesseract = "^0.3.10"
+pillow = "^10.1.0"
+requests = "^2.31.0"
+aws-wsgi = "^0.2.7"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
